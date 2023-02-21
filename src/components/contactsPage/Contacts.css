@@ -1,0 +1,90 @@
+.contactsBody{
+    display: flex;
+    word-wrap: break-word;
+    margin-left: 22px;
+}
+#contacts{
+    font-family: "Ebrima";
+    font-size: 18px;
+    font-weight:bolder;
+    text-shadow: 0px 0px 0.8px;
+    margin-bottom: 20px;
+}
+
+.allAddressess{
+    width: 420px;
+    /* display: inline; */
+}
+.contactsDetails{
+    font-family: "Leelawadee UI";
+    border: 1px solid  #d0d0d0;
+    color: rgb(83, 83, 83);
+    padding: 0px 10px 10px;
+}
+#contactName{
+    font-weight:lighter;
+    margin: 0;
+    display: inline;
+}
+#emailMobile{
+    /* margin: 0; */
+    display: inline;
+}
+.contactsDetails:hover{
+    background-color: #cee7f2;
+    cursor: pointer;
+}
+.individualContactBody{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 150px;
+    /* word-wrap: break-word; */
+}
+.nameEditDeleteDiv{
+    /* flex-direction: column; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: row; */
+    /* flex-wrap: unset; */
+    word-wrap: break-word;
+    /* border: 1px solid black; */
+}
+.editDeleteDiv{
+    width:170px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .editButton:hover{
+
+} */
+#editIcon{
+    width: 15px;
+    height: 15px;
+    margin: auto;
+    /* margin-top: 8px; */
+    margin-right: 5px;
+}
+#deleteIcon{
+    width: 20px;
+    height: 25px;
+    /* padding: auto; */
+    padding-bottom: auto;
+    /* margin: auto; */
+    /* margin-top: 2px; */
+    margin-right: 5px;    
+}
+.deleteButton:hover, .editButton:hover{
+    cursor: pointer;
+}
+.deleteButton, .editButton{
+    display: flex;
+    /* margin-left: 5px; */
+}
+#addressName{
+    margin: 0px;
+    font-weight: lighter;
+}
+.active {
+    background-color: #cee7f2;
+}
