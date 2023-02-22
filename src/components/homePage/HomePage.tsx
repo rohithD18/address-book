@@ -17,6 +17,7 @@ const HomePage: React.FC = () => {
         <h1 id="headerOne">Address Book</h1>
       </div>
       <div className="navDiv">
+        <div className="homeAddDiv">
         <button id="homeAddBtns" onClick={() => setShow(false)}>
           HOME
         </button>
@@ -29,6 +30,7 @@ const HomePage: React.FC = () => {
         >
           +ADD
         </button>
+        </div>
         <img id="blogIcon" src={blog_icon} alt="blog_icon" />
       </div>
       <div className="componentsDiv">

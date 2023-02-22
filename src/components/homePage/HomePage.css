@@ -1,6 +1,6 @@
 .headingDiv{
     background-color: #3399cc;
-    padding:25px;
+    padding:25px 10px 25px;
     /* height: 100px;
     display: flex; 
     padding-left: 10px;  */
@@ -12,34 +12,41 @@
     font-size: 53px;
     margin: 0px;
   }
+  
+  #blogIcon{
+    margin: 3px 28px;
+  }
   .navDiv{
     background-color: #333333;
     height: 30px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
   }
-  #blogIcon{
-    float: right;
-    margin: 3px 28px 8px 0px;
-    /* margin-right: 20px;
-    margin-top: 3px; */
+  .homeAddDiv{
+    display: flex;
   }
-  #homeAddBtns{
-    margin-left: 17px;
+  #homeAddBtns{   
     background-color: #333333;
     color: white;
     font-family: 'Ebrima';
-    margin-top: 2px;
+    /* margin-top: 4px; */
     border-style: solid;
     border-color: #333333;
     border: none;
-    font-size: 18px;
+    font-size: 15px;
     font-weight:bold;
+    /* display: inline; */
+    
   }
   #homeAddBtns:hover{
     background-color: #f89502 ;
+    height: 100%;
     border-color: white;
     color: black;
     cursor: pointer;
-    font-weight: bolder;
+    font-weight: bold;
+    margin-top: 0;
   }
   .componentsDiv{
     display: flex;

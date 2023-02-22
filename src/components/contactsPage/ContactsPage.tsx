@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IAddressDetails } from "../../Interfaces";
 import edit_icon from "../../assets/edit1.jpg";
-import delete_icon from "../../assets/delete1.png";
+import delete_icon from "../../assets/delete2.png";
 import { deleteAddress, getAllAddressess } from "../../AddressBookServices";
 import InputFormModal from "../inputFormModal/InputFormModal";
 
@@ -86,12 +86,15 @@ const ContactsPage: React.FC<IProps> = (props) => {
               </div>
             </div>
           </div>
-          <div>
-            <p>Email: {individualContact.email} </p>
-            <p>Mobile: {individualContact.mobile} </p>
-            <p>Landline: {individualContact.landline} </p>
+          <div className="details">          
+             <p id="emailDetails">Email: {individualContact.email} </p>
+            <p id="mobileDetails">Mobile: {individualContact.mobile} </p>
+            <p id="mobileDetails">Landline: {individualContact.landline} </p>
             <p>Website: {individualContact.website} </p>
-            <p>Address: {individualContact.address} </p>
+            <div className="sameline">
+              <p id="addressDetails">Address:</p>&nbsp;
+              <pre id="detailedAddress">{individualContact.address} </pre>
+              </div>
           </div>
         </div>
       ) : (

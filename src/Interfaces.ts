@@ -8,4 +8,13 @@ export interface IAddressDetails {
     address : string;
 }
 
+export interface IErrorData {
+    name : string;
+    email : string;
+    mobile : string;
+    landline : string;
+    website: string;
+    address : string;
+}
+
 

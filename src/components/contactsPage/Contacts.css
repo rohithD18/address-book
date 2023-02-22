@@ -1,18 +1,19 @@
 .contactsBody{
     display: flex;
     word-wrap: break-word;
-    margin-left: 22px;
+    margin-left: 10px;
 }
 #contacts{
     font-family: "Ebrima";
-    font-size: 18px;
-    font-weight:bolder;
-    text-shadow: 0px 0px 0.8px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight:bold;
+    text-shadow: 0px 0px 0.5px;
+    margin-bottom: 18px;
 }
 
 .allAddressess{
-    width: 420px;
+    width: 380px;
+    /* margin-bottom: 10px; */
     /* display: inline; */
 }
 .contactsDetails{
@@ -20,6 +21,7 @@
     border: 1px solid  #d0d0d0;
     color: rgb(83, 83, 83);
     padding: 0px 10px 10px;
+    margin-bottom: 0.4px;
 }
 #contactName{
     font-weight:lighter;
@@ -35,9 +37,10 @@
     cursor: pointer;
 }
 .individualContactBody{
-    width: 400px;
-    margin-top: 20px;
-    margin-left: 150px;
+    width: 450px;
+    margin-top: 44px;
+    margin-left: 80px;
+    font-family:'Leelawadee UI';
     /* word-wrap: break-word; */
 }
 .nameEditDeleteDiv{
@@ -46,32 +49,28 @@
     justify-content: space-between;
     align-items: center;
     /* flex-direction: row; */
-    /* flex-wrap: unset; */
-    word-wrap: break-word;
+    /* flex-wrap: wrap; */
+    /* word-wrap: break-word; */
     /* border: 1px solid black; */
+    /* word-wrap: none; */
 }
 .editDeleteDiv{
     width:170px;
     display: flex;
     justify-content: space-between;
 }
-/* .editButton:hover{
-
-} */
 #editIcon{
-    width: 15px;
-    height: 15px;
-    margin: auto;
-    /* margin-top: 8px; */
+    width: 16px;
+    height: 18px;
     margin-right: 5px;
 }
 #deleteIcon{
     width: 20px;
     height: 25px;
     /* padding: auto; */
-    padding-bottom: auto;
+    /* padding-bottom: auto; */
     /* margin: auto; */
-    /* margin-top: 2px; */
+    margin-top: 2px;
     margin-right: 5px;    
 }
 .deleteButton:hover, .editButton:hover{
@@ -84,7 +83,35 @@
 #addressName{
     margin: 0px;
     font-weight: lighter;
+    font-weight: normal;
+    font-family:'Leelawadee UI';
 }
 .active {
     background-color: #cee7f2;
+}
+#mobileDetails{
+    margin: 0;
+}
+.details{
+    font-size: 17px;
+}
+.sameline{
+    display: flex;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+pre{
+    font-family: 'Leelawadee UI';    
+}
+#detailedAddress{
+    white-space: pre-wrap;
+    margin: 0px;
+}
+#addressDetails{
+    margin: 0px;
+}
+#emailDetails{
+    font-family: 'Leelawadee UI';
 }
